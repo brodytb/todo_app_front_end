@@ -33,11 +33,12 @@ html{
       .box-one{
           background-color:#E74C3C;
       color:#ECFDF1;
-      border: 15px;
-      margin: 15px;
+      
       }
       .box-two {
         background-color: #3498D8;
         color: #ECFOF1;
       }
-      
+      .completed-todo{
+          text-decoration:line-through;
+      }

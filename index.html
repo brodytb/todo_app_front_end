@@ -1,14 +1,15 @@
 <!DOCTYPE html>
     <html>
     <head>
-    
-    <link rel="stylesheet" href = "index.css">
-
-
-    <body>
-    <title> todo app</title>
+        <title> todo app</title>
+        
+        <link rel="stylesheet" href = "index.css">
+        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+        <script type= "text/javascript" src= "index.js"> </script> 
     
     </head>
+     
+     <body background= "in today.jp">
         <al></al>
         <h1>Welcome to website</h1>
     <h2>best website ever created</h2>
@@ -23,16 +24,23 @@
         </li>
         
         <li><input type="checkbox"> <a href="show.html">
-            clean room </a> <span class ="box-two"> 3 pomodoros </span>
+            clean room </a> <span class ="box-one"> 3 pomodoros </span>
             </li>
         
         <li><input type="checkbox">
-        <a href="show.html">make eggs</a> <span class ="time">3 pomodoros </span>
+        <a href="show.html">make eggs</a>  <span class ="box-one">3 pomodoros </span>
         </li>
         
     </ul> 
     
-    <input type= "text" placeholder= "add new todo">
-    <input type= "number" placeholder= "yes"step="3">
-    <input id ="add-new-todo-button"type="submit" value= "add todo">
-    </html>
+    <div id = "to-do-block">
+    <input class= "text-input" type="text" id="test1" placeholder= "add new todo">
+    <input type= "number" class="text-input" id="test2" placeholder="pomodoros" step="3">
+    <input id ="add-new-todo-button" type="submit" value="add todo">
+
+     
+    </div>
+   </body>
+   
+</html> 
+    
